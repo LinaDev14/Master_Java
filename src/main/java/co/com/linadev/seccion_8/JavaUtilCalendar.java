@@ -23,7 +23,7 @@ public class JavaUtilCalendar {
         
         System.out.println("calendar = " + calendar);
         System.out.println(date);
-        
+
         // simple format
         SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         String dateFormat = format.format(date);
